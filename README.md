@@ -121,4 +121,3 @@ Contributions are welcome! If you find any issues or have improvements to sugges
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 ```
 
-Replace the placeholders with your actual project information and usage instructions. This README provides a basic structure for documenting your Express.js API on GitHub.
