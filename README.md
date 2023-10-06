@@ -1,7 +1,7 @@
 Certainly! Here's a simple README template that you can use to document your Express.js API on GitHub:
 
 ```markdown
-# Express.js API Example
+# Express.js Quote API Example
 
 This is a simple Express.js API example that provides endpoints for random quotes and adding/querying quotes.
 
