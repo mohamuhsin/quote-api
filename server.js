@@ -10,8 +10,16 @@ app.use(express.static("public"));
 
 app.get("/api/quotes/random", (req, res, next) => {
   const randomQuote = getRandomElement(quotes);
-  res.send({ quote: randomQuote });
+  res.json({ quote: randomQuote });
 });
+
+//app.get("/api/quotes", (req, res, next) => {
+// const person = req.query;
+
+//if (!person) {
+//res.send({ quotes: quotes });
+//}
+//});
 
 app.listen(PORT, () => {
   console.log(`server is running at port ${PORT}`);
