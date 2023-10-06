@@ -25,6 +25,8 @@ app.get("/api/quotes", (req, res, next) => {
   }
 });
 
+app.post("/api/quotes", (req, res, next) => {});
+
 app.listen(PORT, () => {
   console.log(`server is running at port ${PORT}`);
 });
