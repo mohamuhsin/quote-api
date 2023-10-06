@@ -35,3 +35,14 @@ This is a simple Express.js API example that provides endpoints for random quote
 
 ```shell
 curl http://localhost:4001/api/quotes/random
+
+Example Response:
+
+json
+
+{
+  "quote": {
+    "text": "This is a random quote",
+    "person": "Random Author"
+  }
+}
