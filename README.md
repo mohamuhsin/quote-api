@@ -37,7 +37,7 @@ This is a simple Express.js API example that provides endpoints for random quote
 curl http://localhost:4001/api/quotes/random
 
 
-Example Response:
+#Example Response:
 
 json
 
@@ -48,7 +48,7 @@ json
   }
 }
 
-/api/quotes
+#/api/quotes
 Returns all quotes if no query parameters are provided.
 Returns quotes by a specific person if person query parameter is provided.
 HTTP Method: GET
