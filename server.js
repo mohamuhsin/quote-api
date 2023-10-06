@@ -14,11 +14,14 @@ app.get("/api/quotes/random", (req, res, next) => {
 });
 
 app.get("/api/quotes", (req, res, next) => {
-  const person = req.params.person;
-  if (!person) {
-    res.send({ quotes: quotes });
+  const person = req.query.person;
+  if (person) {
+    const qouteByPerson = quotes.filter(
+      (quote) => quote.person === req.query.person
+    );
+    res.send({ quote: qouteByPerson });
   } else {
-    res.send({ quotes: [] });
+    res.send({ quotes: quotes });
   }
 });
 
